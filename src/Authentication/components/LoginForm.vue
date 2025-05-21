@@ -28,7 +28,7 @@ import {useToast} from 'primevue/usetoast';
 import type {FormResolverOptions, FormSubmitEvent} from '@primevue/forms';
 import {Form} from '@primevue/forms';
 import InputField from '../../shared/components/InputField.vue';
-import Button from 'primevue/button';
+import {Button} from 'primevue';
 import type {LoginFormValues} from "../models/user";
 import {AuthFacadeService} from "../services/auth-facade.service.ts";
 
